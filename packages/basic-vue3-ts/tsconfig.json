@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@router/*": [
+        "src/router/*"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@constants/*": [
+        "src/constants/*"
+      ],
+      "@share/*": [
+        "src/share/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@modules/*": [
+        "modules/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ]
+    },
+    "types": [
+      "element-plus/global",
+      "unplugin-vue-define-options"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "modules/**/*.ts",
+    "modules/**/*.d.ts",
+    "modules/**/*.tsx",
+    "modules/**/*.vue",
+    "modules/**/*.js",
+    "modules/**/*.jsx"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

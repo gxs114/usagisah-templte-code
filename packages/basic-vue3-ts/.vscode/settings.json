@@ -1,0 +1,36 @@
+{
+  // 保存时自动格式化
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  // eslint 格式化，如果使用的话
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // },
+  // prettier 格式化
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": [
+    "contenteditable",
+    "INTLIFY",
+    "tailwindcss",
+    "unplugin",
+    "usagisah",
+    "wangeditor"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "auto-imports.d.ts": true,
+    "components.d.ts": true,
+    ".prettierrc.cjs": true,
+  }
+}
