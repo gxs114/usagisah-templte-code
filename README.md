@@ -6,3 +6,9 @@
 
 ### 1. basic-vue3-ts
 vite + ts + tsx + vue3 + VueRouter + ElementPlus + tailwindcss + setEnvPlugin(环境配置) + 常用工具hook + 二次封装请求函数 + prettier + 路径配置 + 自动格式化配置
+
+
+
+
+### 2. basic-react-ts
+vite + ts + tsx + react18 + react-router-dom + antd + @emotion/react + @emotion/styled + setEnvPlugin(环境配置) + 常用工具hook + 二次封装请求函数 + prettier + 路径配置 + 自动格式化配置
